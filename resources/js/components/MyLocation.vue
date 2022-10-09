@@ -1,0 +1,17 @@
+<script>
+export default {
+    data() {
+        return {
+            message: 'My location!',
+            counter: {
+                count: 0
+            }
+        }
+    }
+}
+</script>
+
+<template>
+    <h1>{{ message }}</h1>
+    <p>Count is: {{ counter.count }}</p>
+</template>
