@@ -85,3 +85,16 @@ Step 2 auth:
 composer require laravel/ui
 2.
 php artisan ui bootstrap --auth
+
+
+
+
+
+
+
+
+
+
+
+eval "$(ssh-agent -s)"
+ssh-add -K ~/.ssh/id_rsa
